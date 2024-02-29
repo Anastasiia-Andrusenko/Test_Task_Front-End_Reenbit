@@ -6,8 +6,9 @@
 
 .main {
   padding: 30px;
+  margin: 20px;
   width: 70vw;
-  outline: auto 1px firebrick;
+  /* outline: auto 1px firebrick; */
 }
 
 .mainContainer {
@@ -31,4 +32,17 @@
 }
 
 .title{
+  font-size: 30px;
+  letter-spacing: .12rem;
+  margin-bottom: 40px;
+}
+
+.titleBold {
+  font-weight: 700;
+}
+
+.caption {
+  font-size: 18px;
+  margin-bottom: 60px;
+  padding: 6px;
 }

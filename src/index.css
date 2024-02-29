@@ -1,4 +1,6 @@
 @import-normalize; /* bring in normalize.css styles */
+@import 'reset-css';
+
 
 body {
   margin: 0;
@@ -7,9 +9,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(62, 61, 61);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }

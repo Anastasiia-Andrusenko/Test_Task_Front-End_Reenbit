@@ -1,6 +1,7 @@
 import css from './AppBar.module.css';
 
 import AuthNav from 'components/AuthNav/AuthNav';
+import { RiHome7Line } from "react-icons/ri";
 
 // import Navigation from 'components/Navigation/Navigation';
 // import UserMenu from 'components/UserMenu/UserMenu';
@@ -14,7 +15,9 @@ const AppBar = () => {
   return (
     <header className={css.header}>
       <NavLink to="/">
-        Home
+        <p className={css.navLink}>Home
+          <RiHome7Line className={css.icon}/>
+        </p>
       </NavLink>
       <AuthNav/>
       {/* {isLoggedIn ? <UserMenu/> : <AuthNav/>} */}
