@@ -1,0 +1,17 @@
+
+.footer {
+  /* border-top: 1px solid grey; */
+  padding: 20px;
+  text-align: center;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.caption + span {
+  font-size: 14px;
+  font-weight: 100;
+}

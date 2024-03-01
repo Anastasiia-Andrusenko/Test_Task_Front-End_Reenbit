@@ -1,20 +1,38 @@
 
 .card {
   width: 240px;
+  cursor: pointer;
 
-
-
-  outline: auto 1px gray;
+  /* outline: auto 1px gray; */
 }
 
 .cityPhoto {
   width: 240px;
   height: 240px;
   background-color: grey;
+  background-size: cover;
 }
+
 
 .info {
-  height: 60px;
+  border: 1px solid rgba(200, 200, 200, 0.3);
+  height: 50px;
+  padding: 20px;
+  color: rgb(57, 57, 57);
 }
 
-.cityName {}
+.card:hover .info {
+    border: 1px solid rgb(40, 104, 255);
+  }
+
+
+.cityName {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.period {
+  margin-top: 16px;
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+}
