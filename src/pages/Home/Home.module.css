@@ -17,20 +17,6 @@
   
 }
 
-
-.aside {
-  width: 30vw;
-  height: calc(100vh - 160px);
-  background: rgb(2,0,36); 
-  background: linear-gradient(90deg, rgba(63, 61, 85, 0.5) 0%, rgba(171, 171, 224, 0.4) 35%), url('../../img/aside.jpg');
-  background-size: cover;
-  background-position: center;
-
-  text-align: center;
-
-  color: antiquewhite;
-}
-
 .title{
   font-size: 30px;
   letter-spacing: .12rem;
@@ -43,6 +29,62 @@
 
 .caption {
   font-size: 18px;
+  font-weight: 200;
   margin-bottom: 60px;
   padding: 6px;
+}
+
+.link {
+  font-weight: 500;
+  padding: 6px 10px;
+  border: 1px solid rgba(50, 50, 50, 0);
+  border-radius: 20px;
+  transition: border cubic-bezier(0, 0, 1, 1) 200ms;
+}
+
+.link:hover {
+  border: 1px solid rgba(50, 50, 50, 1)
+}
+
+.aside {
+  width: 30vw;
+  height: calc(100vh - 160px);
+  background: rgb(2,0,36); 
+  background: linear-gradient(90deg, rgba(63, 61, 85, 0.5) 0%, rgba(171, 171, 224, 0.4) 35%), url('../../img/aside.jpg');
+  background-size: cover;
+  background-position: center;
+
+  color: rgba(250, 235, 215, 0.7);
+}
+
+.weather {
+  height: auto;
+  margin-top: 30vh
+}
+
+
+.day {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.temperature {
+  text-align: center;
+  font-size: 60px;
+  padding: 10px;
+}
+
+.degree {
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.cityName {
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+
+  transform: translateX(-8px);
 }
