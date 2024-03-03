@@ -4,19 +4,20 @@ import { App } from 'components/App';
 import './index.css';
 
 import { BrowserRouter } from 'react-router-dom';
-// import { Provider } from 'react-redux';
+import { Provider } from 'react-redux';
 // import { PersistGate } from 'redux-persist/lib/integration/react';
 // import { store, persistor } from './redux/store';
+import { store } from './redux/store';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Provider store={store}> */}
+    <Provider store={store}>
     {/* <Provider> */}
       {/* <PersistGate loading={null} persistor={persistor}> */}
         <BrowserRouter basename="/Test_Task_Front-End_Reenbit">
           <App />
         </BrowserRouter>
       {/* </PersistGate> */}
-    {/* </Provider> */}
+    </Provider>
   </React.StrictMode>
 );
