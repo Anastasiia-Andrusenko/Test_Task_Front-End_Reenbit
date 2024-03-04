@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/Test_Task_Front-End_Reenbit/static/css/main.94b97cc0.css",
-    "main.js": "/Test_Task_Front-End_Reenbit/static/js/main.a7dd601b.js",
+    "main.css": "/Test_Task_Front-End_Reenbit/static/css/main.1c1ad911.css",
+    "main.js": "/Test_Task_Front-End_Reenbit/static/js/main.7e557f48.js",
     "static/css/34.5c8afa3e.chunk.css": "/Test_Task_Front-End_Reenbit/static/css/34.5c8afa3e.chunk.css",
-    "static/js/34.68d08b46.chunk.js": "/Test_Task_Front-End_Reenbit/static/js/34.68d08b46.chunk.js",
+    "static/js/34.e270f5ec.chunk.js": "/Test_Task_Front-End_Reenbit/static/js/34.e270f5ec.chunk.js",
+    "static/css/277.fb1efe51.chunk.css": "/Test_Task_Front-End_Reenbit/static/css/277.fb1efe51.chunk.css",
+    "static/js/277.590b1a0e.chunk.js": "/Test_Task_Front-End_Reenbit/static/js/277.590b1a0e.chunk.js",
+    "static/js/262.9f7a446a.chunk.js": "/Test_Task_Front-End_Reenbit/static/js/262.9f7a446a.chunk.js",
     "static/media/aside.jpg": "/Test_Task_Front-End_Reenbit/static/media/aside.c226d01e5c4865f4c263.jpg",
     "index.html": "/Test_Task_Front-End_Reenbit/index.html",
-    "main.94b97cc0.css.map": "/Test_Task_Front-End_Reenbit/static/css/main.94b97cc0.css.map",
-    "main.a7dd601b.js.map": "/Test_Task_Front-End_Reenbit/static/js/main.a7dd601b.js.map",
+    "main.1c1ad911.css.map": "/Test_Task_Front-End_Reenbit/static/css/main.1c1ad911.css.map",
+    "main.7e557f48.js.map": "/Test_Task_Front-End_Reenbit/static/js/main.7e557f48.js.map",
     "34.5c8afa3e.chunk.css.map": "/Test_Task_Front-End_Reenbit/static/css/34.5c8afa3e.chunk.css.map",
-    "34.68d08b46.chunk.js.map": "/Test_Task_Front-End_Reenbit/static/js/34.68d08b46.chunk.js.map"
+    "34.e270f5ec.chunk.js.map": "/Test_Task_Front-End_Reenbit/static/js/34.e270f5ec.chunk.js.map",
+    "277.fb1efe51.chunk.css.map": "/Test_Task_Front-End_Reenbit/static/css/277.fb1efe51.chunk.css.map",
+    "277.590b1a0e.chunk.js.map": "/Test_Task_Front-End_Reenbit/static/js/277.590b1a0e.chunk.js.map",
+    "262.9f7a446a.chunk.js.map": "/Test_Task_Front-End_Reenbit/static/js/262.9f7a446a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b97cc0.css",
-    "static/js/main.a7dd601b.js"
+    "static/css/main.1c1ad911.css",
+    "static/js/main.7e557f48.js"
   ]
 }
