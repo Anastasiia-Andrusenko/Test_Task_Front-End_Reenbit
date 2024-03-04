@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.caption {
+  font-size: 18px;
+}
+
+.mediaLinkContainer {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.mediaLink {
+  width: 30px;
+  height: 30px;
+  color: rgb(0, 0, 195);
+  transition: transform 200ms linear;
+}
+
+.mediaLink:hover {
+  cursor: pointer;
+  /* transform: scale(1.4); */
+  transform: translateX(-8px) scale(1.4);
+}

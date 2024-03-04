@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  margin-top: 160px ;
 }
 
 .label {
@@ -15,10 +14,6 @@
   justify-content: flex-end;
 }
 
-/* .label:focus {
-  font-weight: 800;
-} */
-
 .input {
   width: 200px;
   font-size: 16px;
@@ -27,7 +22,6 @@
   border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
 .input:focus {
   outline: none;
   border: 2px solid black;
@@ -37,12 +31,12 @@
   margin-top: 10px;
   width: fit-content;
   color: rgba(56, 56, 56, 0.6);
-  background-color: white;
   font-size: 16px;
   font-weight: 500;
   padding: 8px 10px;
   border-radius: 20px;
   border: 2px solid rgba(47, 47, 47, 0.5);
+  background-color: white;
   /* transform: scale(1); */
   transition: all 200ms linear;
 }

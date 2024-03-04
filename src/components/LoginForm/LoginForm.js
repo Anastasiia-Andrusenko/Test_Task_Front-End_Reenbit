@@ -1,47 +1,43 @@
+import css from './LoginForm.module.css';
 
-import { useDispatch } from "react-redux";
-
-import css from './RegisterForm.module.css';
-import { HiOutlineUserCircle } from 'react-icons/hi';
+import { useDispatch } from 'react-redux';
+import { logIn } from '../../redux/operations';
+import { IoLogIn } from 'react-icons/io5';
 import { FiMail } from 'react-icons/fi';
 import { RiLockPasswordLine } from 'react-icons/ri';
 
-import { register } from '../../redux/operations';
 import { useSelector } from 'react-redux';
 import { selectError } from '../../redux/selectors';
 // import { toast } from "react-toastify";
 
-const RegisterForm = () => {
+const LoginForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = e => {
     e.preventDefault();
 
     const form = e.currentTarget;
-
+    
     dispatch(
-      register({
-        name: form.elements.name.value,
+      logIn({
         email: form.elements.email.value,
         password: form.elements.password.value,
       })
     );
+    // form.reset();
   };
 
   const error = useSelector(selectError);
   
+
   if (error) {
     // toast.error(`${error}`);
     console.log(error);
   }
 
-  return <>
+
+  return (
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
-      <label className={css.label}>
-        Username
-        <HiOutlineUserCircle className={css.icon}/>
-        <input type="text" name="name" className={css.input}/>
-      </label>
       <label className={css.label}>
         Email
         <FiMail className={`${css.icon} ${css.mail}`}/>
@@ -53,10 +49,12 @@ const RegisterForm = () => {
         <input type="password" name="password" className={css.input}/>
       </label>
       <button type="submit" className={css.btn}>
-        Register
+        Log In
+        <IoLogIn className={css.icon} />
       </button>
     </form>
-  </>
+  );
 };
 
-export default RegisterForm;
+
+export default LoginForm;

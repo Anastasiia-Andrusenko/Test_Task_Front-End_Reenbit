@@ -9,9 +9,12 @@ import { refreshUser } from "../redux/operations";
 
 // import { PrivateRoute } from "./PrivateRoute";
 import { RestrictedRoute } from "./RestrictedRoute";
+import NotFoundPage from "pages/NotFoundPage/NotFoundPage";
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const RegisterPage = lazy(() => import('../pages/Register/Register'));
+const LoginPage = lazy(() => import('../pages/Login/Login'));
+
 
 
 export const App = () => {
@@ -27,7 +30,12 @@ export const App = () => {
       <AppBar/>
     <Routes>
         <Route index element={<HomePage/>}/>
-        <Route path="/register" element={<RestrictedRoute redirectTo='/' component={<RegisterPage/>} />}/>
+        <Route path="/register" 
+          element={<RestrictedRoute redirectTo='/' component={<RegisterPage/>} />}
+        />
+        <Route path='/login'
+          element={<RestrictedRoute redirectTo='/' component={<LoginPage />} />} />
+        <Route path="*" element={<NotFoundPage/> }/>
     </Routes>
     <Footer/>
     </div>
