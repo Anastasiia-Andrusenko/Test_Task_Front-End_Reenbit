@@ -1,7 +1,7 @@
 
 import { Helmet } from 'react-helmet';
 import RegisterForm from "components/RegisterForm/RegisterForm";
-import { UseSelector, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { selectIsLoggedIn } from "../../redux/selectors";
 import { Navigate } from "react-router-dom";
 
