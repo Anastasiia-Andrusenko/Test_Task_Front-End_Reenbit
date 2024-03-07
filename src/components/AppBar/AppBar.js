@@ -1,16 +1,16 @@
 import css from './AppBar.module.css';
 
-import AuthNav from 'components/AuthNav/AuthNav';
+import AuthNav from '../AuthNav/AuthNav';
 import { RiHome7Line } from "react-icons/ri";
 
-// import Navigation from 'components/Navigation/Navigation';
 // import UserMenu from 'components/UserMenu/UserMenu';
 
-// import { useAuth } from 'hooks/useAuth';
+import { useAuth } from 'hooks/useAuth';
+import UserMenu from 'components/UserMenu/UserMenu';
 const { NavLink } = require("react-router-dom");
 
 const AppBar = () => {
-  // const { isLoggedIn } = useAuth();
+  const { isLoggedIn } = useAuth();
 
   return (
     <header className={css.header}>
@@ -19,8 +19,7 @@ const AppBar = () => {
           <RiHome7Line className={css.icon}/>
         </p>
       </NavLink>
-      <AuthNav/>
-      {/* {isLoggedIn ? <UserMenu/> : <AuthNav/>} */}
+      {isLoggedIn ? <UserMenu/> : <AuthNav/>}
     </header>
   )
 }

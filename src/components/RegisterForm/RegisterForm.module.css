@@ -7,6 +7,7 @@
 }
 
 .label {
+  position: relative;
   font-weight: 200;
   width: 330px;
   display: flex;
@@ -55,12 +56,25 @@
 }
 
 .icon {
+  margin-left: 6px;
+}
+
+.icon, 
+.btnIcon {
   vertical-align: text-bottom;
   padding: 0;
   font-size: 18px;
-  margin-left: 6px;
 }
 
 .mail {
   font-size: 17px;
+}
+
+.btnVisible {
+  cursor: pointer;
+  /* height: 30px; */
+  width: 30px;
+  background: none;
+  border: none;
+  position: absolute;
 }

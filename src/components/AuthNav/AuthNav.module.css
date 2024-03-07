@@ -2,18 +2,18 @@
 .btn {
   display: flex;
   align-items: center;
-
+  /* color: rgba(56, 56, 56, 0.6); */
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 20px;
-
   padding: 16px;
-  transition: border cubic-bezier(0, 0, 1, 1) 200ms;
+  border-radius: 20px;
+  border: 1px solid rgba(47, 47, 47, 0.1);
+  background-color: white;
+  transition: all 250ms linear;
 }
 
 .btn:hover {
-  border: 1px solid rgb(50, 50, 50);
+  border: 1px solid rgb(26, 26, 26);
 }
 
 .icon {

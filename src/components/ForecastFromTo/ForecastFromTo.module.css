@@ -1,0 +1,49 @@
+.container {
+  margin-top: 60px;
+}
+
+.caption {
+  font-weight: 600;
+}
+
+.listForecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 740px;
+
+  margin-top: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  /* outline: 1px solid tomato; */
+}
+
+.item {
+  width: 80px;
+  height: auto;
+  padding: 8px;
+  text-align: center;
+  /* outline: 1px solid tomato; */
+}
+
+.day{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.illustration {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(128, 128, 128, 0.4);
+  margin: auto;
+  margin-top: 30px;
+  outline: 1px solid rgb(134, 179, 44);
+}
+
+.temp {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 24px;
+}
